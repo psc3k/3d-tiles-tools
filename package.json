@@ -13,10 +13,15 @@
         "import": "./build/src/index.js",
         "require": "./build/src/index.js"
       },
-      "./b3dm": {
-        "types": "./build/src/b3dm/index.d.ts",
-        "import": "./build/src/b3dm/index.js",
-        "require": "./build/src/b3dm/index.js"
+      "./toolsMain": {
+        "types": "./build/src/cli/ToolsMain.d.ts",
+        "import": "./build/src/cli/ToolsMain.js",
+        "require": "./build/src/cli/ToolsMain.js"
+      },
+      "./tileFormats": {
+        "types": "./build/src/tileFormats/TileFormats.d.ts",
+        "import": "./build/src/tileFormats/TileFormats.js",
+        "require": "./build/src/tileFormats/TileFormats.js"
       }
   },
   "types": "./build/src/index.d.ts",
