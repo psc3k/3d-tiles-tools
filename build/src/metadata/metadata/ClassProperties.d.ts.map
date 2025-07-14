@@ -1,0 +1,1 @@
+{"version":3,"file":"ClassProperties.d.ts","sourceRoot":"","sources":["../../../../src/metadata/metadata/ClassProperties.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,aAAa,EAAE,MAAM,iBAAiB,CAAC;AAKhD;;;;GAIG;AACH,qBAAa,eAAe;IAC1B;;;;;;;;;;;;OAYG;IACH,MAAM,CAAC,+BAA+B,CAAC,QAAQ,EAAE,aAAa,GAAG,OAAO;IAsBxE;;;;;;;;;;OAUG;IACH,MAAM,CAAC,cAAc,CAAC,QAAQ,EAAE,aAAa,GAAG,OAAO;CAcxD"}

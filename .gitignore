@@ -7,7 +7,6 @@ package-lock.json
 /node_modules
 /demos/node_modules
 /packages/cli/node_modules
-/build
 /dist
 /data
 /temp

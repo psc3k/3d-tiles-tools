@@ -1,0 +1,1 @@
+{"version":3,"file":"OrientedBoundingBoxes.d.ts","sourceRoot":"","sources":["../../../../src/tools/tilesetProcessing/OrientedBoundingBoxes.ts"],"names":[],"mappings":"AAQA;;;;GAIG;AACH,qBAAa,qBAAqB;IAChC;;;;;;;;OAQG;IACH,MAAM,CAAC,UAAU,CAAC,MAAM,EAAE,MAAM,EAAE,EAAE,GAAG,MAAM,EAAE;IAI/C;;;;;OAKG;IACH,OAAO,CAAC,MAAM,CAAC,gBAAgB;CA8BhC"}

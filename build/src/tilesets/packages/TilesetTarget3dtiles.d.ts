@@ -1,0 +1,26 @@
+/// <reference types="node" />
+/// <reference types="node" />
+import { TilesetTarget } from "../tilesetData/TilesetTarget";
+/**
+ * Implementation of a TilesetTarget that creates a
+ * 3DTILES (SQLITE3 database) file.
+ *
+ * @internal
+ */
+export declare class TilesetTarget3dtiles implements TilesetTarget {
+    /**
+     * The database
+     */
+    private db;
+    /**
+     * Default constructor
+     */
+    constructor();
+    /** {@inheritDoc TilesetTarget.begin} */
+    begin(fullOutputName: string, overwrite: boolean): Promise<void>;
+    /** {@inheritDoc TilesetTarget.addEntry} */
+    addEntry(key: string, content: Buffer): Promise<void>;
+    /** {@inheritDoc TilesetTarget.end} */
+    end(): Promise<void>;
+}
+//# sourceMappingURL=TilesetTarget3dtiles.d.ts.map

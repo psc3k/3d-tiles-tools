@@ -1,0 +1,31 @@
+/// <reference types="node" />
+/// <reference types="node" />
+import { TilesetTarget } from "./TilesetTarget";
+/**
+ * Implementation of a TilesetTarget that writes into
+ * a directory of a file system
+ *
+ * @internal
+ */
+export declare class TilesetTargetFs implements TilesetTarget {
+    /**
+     * The name of the output directory
+     */
+    private fullOutputName;
+    /**
+     * Whether output files should be overwritten if they
+     * already exist.
+     */
+    private overwrite;
+    /**
+     * Default constructor
+     */
+    constructor();
+    /** {@inheritDoc TilesetTarget.begin} */
+    begin(fullOutputName: string, overwrite: boolean): Promise<void>;
+    /** {@inheritDoc TilesetTarget.addEntry} */
+    addEntry(key: string, content: Buffer): Promise<void>;
+    /** {@inheritDoc TilesetTarget.end} */
+    end(): Promise<void>;
+}
+//# sourceMappingURL=TilesetTargetFs.d.ts.map
