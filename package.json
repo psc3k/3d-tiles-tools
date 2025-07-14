@@ -7,7 +7,33 @@
     "name": "Cesium GS, Inc. and Contributors"
   },
   "source": "./src/index.ts",
-  "exports": "./build/src/index.js",
+  "exports": {
+    ".": {
+      "types": "./build/src/index.d.ts",
+      "import": "./build/src/index.js",
+      "require": "./build/src/index.js"
+    },
+    "./glbToB3dm": {
+      "types": "./build/src/glbToB3dm.d.ts",
+      "import": "./build/src/glbToB3dm.js",
+      "require": "./build/src/glbToB3dm.js"
+    },
+    "./b3dmToGlb": {
+      "types": "./build/src/b3dmToGlb.d.ts",
+      "import": "./build/src/b3dmToGlb.js",
+      "require": "./build/src/b3dmToGlb.js"
+    },
+    "./cmptToGlb": {
+      "types": "./build/src/cmptToGlb.d.ts",
+      "import": "./build/src/cmptToGlb.js",
+      "require": "./build/src/cmptToGlb.js"
+    },
+    "./i3dmToGlb": {
+      "types": "./build/src/i3dmToGlb.d.ts",
+      "import": "./build/src/i3dmToGlb.js",
+      "require": "./build/src/i3dmToGlb.js"
+    }
+},
   "types": "./build/src/index.d.ts",
   "bin": {
     "3d-tiles-tools": "./build/src/cli.mjs"
